@@ -1,4 +1,5 @@
-﻿using System.Web;
+﻿using BattleShipStateTracker.API.Filters;
+using System.Web;
 using System.Web.Mvc;
 
 namespace BattleShipStateTracker.API
@@ -8,6 +9,7 @@ namespace BattleShipStateTracker.API
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
             filters.Add(new HandleErrorAttribute());
+            filters.Add(new ValidateModelStateFilter());
         }
     }
 }
