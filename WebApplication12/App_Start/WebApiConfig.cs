@@ -22,9 +22,11 @@ namespace BattleShipStateTracker.API
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
-            );            
+            );
+            config.Filters.Add(new ValidateModelStateFilter());
             StructuremapWebApi.Start();
             FluentValidationModelValidatorProvider.Configure(config);
+
 
             
         }

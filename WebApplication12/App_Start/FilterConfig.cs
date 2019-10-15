@@ -8,8 +8,7 @@ namespace BattleShipStateTracker.API
     {
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
-            filters.Add(new HandleErrorAttribute());
-            filters.Add(new ValidateModelStateFilter());
+            filters.Add(new HandleErrorAttribute());           
         }
     }
 }
