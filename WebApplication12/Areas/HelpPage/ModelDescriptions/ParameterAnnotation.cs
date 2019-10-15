@@ -1,6 +1,6 @@
 using System;
 
-namespace WebApplication12.Areas.HelpPage.ModelDescriptions
+namespace BattleShipStateTracker.API.Areas.HelpPage.ModelDescriptions
 {
     public class ParameterAnnotation
     {

@@ -1,11 +1,11 @@
 using System.Web.Http;
 using WebActivatorEx;
-using WebApplication12;
+using BattleShipStateTracker.API;
 using Swashbuckle.Application;
 
 [assembly: PreApplicationStartMethod(typeof(SwaggerConfig), "Register")]
 
-namespace WebApplication12
+namespace BattleShipStateTracker.API
 {
     public class SwaggerConfig
     {

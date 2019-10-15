@@ -4,10 +4,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
-using WebApplication12.App_Start;
-using WebApplication12.Filters;
+using BattleShipStateTracker.API.App_Start;
+using BattleShipStateTracker.API.Filters;
 
-namespace WebApplication12
+namespace BattleShipStateTracker.API
 {
     public static class WebApiConfig
     {

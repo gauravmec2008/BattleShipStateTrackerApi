@@ -16,7 +16,7 @@
 // --------------------------------------------------------------------------------------------------------------------
 
 
-namespace WebApplication12.DependencyResolution {
+namespace BattleShipStateTracker.API.DependencyResolution {
     using StructureMap;
 	
     public static class IoC {

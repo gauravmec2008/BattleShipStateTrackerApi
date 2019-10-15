@@ -11,10 +11,10 @@ using System.Net.Http.Headers;
 using System.Web.Http;
 using System.Web.Http.Controllers;
 using System.Web.Http.Description;
-using WebApplication12.Areas.HelpPage.ModelDescriptions;
-using WebApplication12.Areas.HelpPage.Models;
+using BattleShipStateTracker.API.Areas.HelpPage.ModelDescriptions;
+using BattleShipStateTracker.API.Areas.HelpPage.Models;
 
-namespace WebApplication12.Areas.HelpPage
+namespace BattleShipStateTracker.API.Areas.HelpPage
 {
     public static class HelpPageConfigurationExtensions
     {

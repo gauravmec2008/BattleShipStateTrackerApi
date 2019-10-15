@@ -7,7 +7,6 @@ namespace BattleShipStateTracker.Domain
 {
     public class Game
     {
-        public Player Player1 { get; set; }       
-
+        public Player Player1 { get; set; }
     }
 }

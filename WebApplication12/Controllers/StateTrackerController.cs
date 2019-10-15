@@ -5,9 +5,9 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using WebApplication12.Models;
+using BattleShipStateTracker.API.Models;
 
-namespace WebApplication12.Controllers
+namespace BattleShipStateTracker.API.Controllers
 {
     public class StateTrackerController : ApiController
     {
@@ -21,8 +21,15 @@ namespace WebApplication12.Controllers
         [Route("processshot")]
         public HttpResponseMessage CreateGameBoardAndProcessShots(StateTrackerModel stateTrackerModel)
         {
-            var shotResult = _stateTrackerService.CreateGameBoardAndProcessShots(stateTrackerModel.RowNumber, stateTrackerModel.ColumnNumber);
-            return Request.CreateResponse(HttpStatusCode.NotFound, shotResult);
+            try
+            {
+                var shotResult = _stateTrackerService.CreateGameBoardAndProcessShots(stateTrackerModel.RowNumber, stateTrackerModel.ColumnNumber);
+                return Request.CreateResponse(HttpStatusCode.NotFound, shotResult.ToString());
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, "Internal Server Error");
+            }
         }
 
     }

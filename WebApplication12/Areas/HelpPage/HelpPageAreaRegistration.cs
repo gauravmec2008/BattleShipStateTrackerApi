@@ -1,7 +1,7 @@
 using System.Web.Http;
 using System.Web.Mvc;
 
-namespace WebApplication12.Areas.HelpPage
+namespace BattleShipStateTracker.API.Areas.HelpPage
 {
     public class HelpPageAreaRegistration : AreaRegistration
     {

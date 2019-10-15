@@ -3,7 +3,7 @@ using System.Text;
 using System.Web;
 using System.Web.Http.Description;
 
-namespace WebApplication12.Areas.HelpPage
+namespace BattleShipStateTracker.API.Areas.HelpPage
 {
     public static class ApiDescriptionExtensions
     {

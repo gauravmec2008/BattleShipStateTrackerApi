@@ -1,7 +1,7 @@
 using System;
 using System.Reflection;
 
-namespace WebApplication12.Areas.HelpPage.ModelDescriptions
+namespace BattleShipStateTracker.API.Areas.HelpPage.ModelDescriptions
 {
     public interface IModelDocumentationProvider
     {

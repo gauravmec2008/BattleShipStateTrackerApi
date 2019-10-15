@@ -15,7 +15,7 @@
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace WebApplication12.DependencyResolution {
+namespace BattleShipStateTracker.API.DependencyResolution {
     using System;
     using System.Collections.Generic;
     using System.Linq;

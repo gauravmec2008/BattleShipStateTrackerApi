@@ -1,7 +1,7 @@
-namespace WebApplication12.DependencyResolution {
+namespace BattleShipStateTracker.API.DependencyResolution {
     using System.Web;
 
-    using WebApplication12.App_Start;
+    using BattleShipStateTracker.API.App_Start;
 
     using StructureMap.Web.Pipeline;
 

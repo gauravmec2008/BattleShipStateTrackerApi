@@ -4,7 +4,7 @@ using System.Web;
 using System.Web.Http.Controllers;
 using System.Web.Http.Filters;
 
-namespace WebApplication12.Filters
+namespace BattleShipStateTracker.API.Filters
 {
     public class ValidateModelStateFilter : ActionFilterAttribute
     {

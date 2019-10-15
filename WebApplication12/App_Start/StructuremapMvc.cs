@@ -15,19 +15,19 @@
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
-using WebApplication12.App_Start;
+using BattleShipStateTracker.API.App_Start;
 
 using WebActivatorEx;
 
 [assembly: PreApplicationStartMethod(typeof(StructuremapMvc), "Start")]
 [assembly: ApplicationShutdownMethod(typeof(StructuremapMvc), "End")]
 
-namespace WebApplication12.App_Start {
+namespace BattleShipStateTracker.API.App_Start {
 	using System.Web.Mvc;
 
     using Microsoft.Web.Infrastructure.DynamicModuleHelper;
 
-	using WebApplication12.DependencyResolution;
+	using BattleShipStateTracker.API.DependencyResolution;
 
     using StructureMap;
     

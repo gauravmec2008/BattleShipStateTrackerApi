@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace WebApplication12
+namespace BattleShipStateTracker.API
 {
     public class BundleConfig
     {

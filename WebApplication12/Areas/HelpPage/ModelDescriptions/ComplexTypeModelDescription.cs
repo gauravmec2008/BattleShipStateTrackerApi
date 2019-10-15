@@ -1,6 +1,6 @@
 using System.Collections.ObjectModel;
 
-namespace WebApplication12.Areas.HelpPage.ModelDescriptions
+namespace BattleShipStateTracker.API.Areas.HelpPage.ModelDescriptions
 {
     public class ComplexTypeModelDescription : ModelDescription
     {

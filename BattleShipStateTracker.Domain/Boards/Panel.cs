@@ -13,6 +13,12 @@ namespace BattleShipStateTracker.Domain.Boards
             AttackerType = AttackerType.Empty;
         }
 
+        public Panel(int row, int column, AttackerType attackerType)
+        {
+            Coordinates = new BoardPosition(row, column);
+            AttackerType = attackerType;
+        }
+
         public bool IsOccupied
         {
             get

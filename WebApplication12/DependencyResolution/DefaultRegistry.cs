@@ -15,9 +15,11 @@
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace WebApplication12.DependencyResolution
+namespace BattleShipStateTracker.API.DependencyResolution
 {
     using BattleShipStateTracker.Services;
+    using BattleShipStateTracker.Services.Helper;
+    using BattleShipStateTracker.Services.Interfaces;
     using StructureMap.Configuration.DSL;
     using StructureMap.Graph;
 
@@ -34,6 +36,7 @@ namespace WebApplication12.DependencyResolution
                     scan.WithDefaultConventions();
                 });
             For<IStateTrackerService>().Use<StateTrackerService>();
+            For<IGameBoardHelper>().Use<GameBoardHelper>();
         }
 
         #endregion

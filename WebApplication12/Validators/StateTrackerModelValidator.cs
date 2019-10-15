@@ -3,9 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using WebApplication12.Models;
+using BattleShipStateTracker.API.Models;
 
-namespace WebApplication12.Validators
+namespace BattleShipStateTracker.API.Validators
 {
     public class StateTrackerModelValidator : AbstractValidator<StateTrackerModel>
     {

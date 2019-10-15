@@ -1,10 +1,10 @@
 using System;
 using System.Web.Http;
 using System.Web.Mvc;
-using WebApplication12.Areas.HelpPage.ModelDescriptions;
-using WebApplication12.Areas.HelpPage.Models;
+using BattleShipStateTracker.API.Areas.HelpPage.ModelDescriptions;
+using BattleShipStateTracker.API.Areas.HelpPage.Models;
 
-namespace WebApplication12.Areas.HelpPage.Controllers
+namespace BattleShipStateTracker.API.Areas.HelpPage.Controllers
 {
     /// <summary>
     /// The controller that will handle requests for the help page.

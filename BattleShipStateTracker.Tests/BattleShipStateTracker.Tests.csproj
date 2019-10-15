@@ -120,6 +120,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BattleShipStateTracker.Domain\BattleShipStateTracker.Domain.csproj">
+      <Project>{44DCCA2E-D803-4FFC-B86B-6E9F4DDBF7D7}</Project>
+      <Name>BattleShipStateTracker.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BattleShipStateTracker.Services\BattleShipStateTracker.Services.csproj">
+      <Project>{7B364C43-2E06-4676-A395-3080B0AD7C4F}</Project>
+      <Name>BattleShipStateTracker.Services</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WebApplication12\BattleShipStateTracker.API.csproj">
       <Project>{3FA58B5F-F520-422B-A7A6-285F43AD552C}</Project>
       <Name>BattleShipStateTracker.API</Name>

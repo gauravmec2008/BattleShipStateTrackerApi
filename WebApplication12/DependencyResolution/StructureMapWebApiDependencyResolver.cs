@@ -18,7 +18,7 @@
 using System.Web.Http.Dependencies;
 using StructureMap;
 
-namespace WebApplication12.DependencyResolution
+namespace BattleShipStateTracker.API.DependencyResolution
 {
     /// <summary>
     /// The structure map dependency resolver.

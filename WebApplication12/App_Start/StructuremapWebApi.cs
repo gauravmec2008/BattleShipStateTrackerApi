@@ -16,11 +16,11 @@
 // --------------------------------------------------------------------------------------------------------------------
 
 using System.Web.Http;
-using WebApplication12.DependencyResolution;
+using BattleShipStateTracker.API.DependencyResolution;
 
-[assembly: WebActivatorEx.PostApplicationStartMethod(typeof(WebApplication12.App_Start.StructuremapWebApi), "Start")]
+[assembly: WebActivatorEx.PostApplicationStartMethod(typeof(BattleShipStateTracker.API.App_Start.StructuremapWebApi), "Start")]
 
-namespace WebApplication12.App_Start {
+namespace BattleShipStateTracker.API.App_Start {
     public static class StructuremapWebApi {
         public static void Start() {
 			var container = StructuremapMvc.StructureMapDependencyScope.Container;

@@ -22,7 +22,7 @@ using System.Web.Http.Dependencies;
 using Microsoft.Practices.ServiceLocation;
 using StructureMap;
 
-namespace WebApplication12.DependencyResolution
+namespace BattleShipStateTracker.API.DependencyResolution
 {
     /// <summary>
     /// The structure map web api dependency scope.
