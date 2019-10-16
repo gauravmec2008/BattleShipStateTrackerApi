@@ -24,7 +24,7 @@ namespace BattleShipStateTracker.API.Controllers
             try
             {
                 var shotResult = _stateTrackerService.CreateGameBoardAndProcessShots(stateTrackerModel.RowNumber, stateTrackerModel.ColumnNumber);
-                return Request.CreateResponse(HttpStatusCode.NotFound, shotResult.ToString());
+                return Request.CreateResponse(HttpStatusCode.OK, shotResult.ToString());
             }
             catch (Exception ex)
             {
