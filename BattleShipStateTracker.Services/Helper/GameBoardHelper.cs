@@ -1,8 +1,5 @@
 ﻿using BattleShipStateTracker.Domain;
 using BattleShipStateTracker.Services.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace BattleShipStateTracker.Services.Helper
 {

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleShipStateTracker.API", "WebApplication12\BattleShipStateTracker.API.csproj", "{3FA58B5F-F520-422B-A7A6-285F43AD552C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleShipStateTracker.API", "BatteshipStateTracker.API\BattleShipStateTracker.API.csproj", "{3FA58B5F-F520-422B-A7A6-285F43AD552C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleShipStateTracker.Tests", "BattleShipStateTracker.Tests\BattleShipStateTracker.Tests.csproj", "{8DC9A0C5-DB83-4CBC-A197-7BA454B88A7A}"
 EndProject
