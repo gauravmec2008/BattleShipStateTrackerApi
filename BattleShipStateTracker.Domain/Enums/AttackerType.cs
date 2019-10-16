@@ -7,6 +7,8 @@ namespace BattleShipStateTracker.Domain.Enums
         Battleship = 'B',
         Cruiser = 'C',
         Destroyer = 'D',
+        Submarine = 'S',
+        Carrier = 'A',
         Hit = 'X',
         Miss = 'M'
     }

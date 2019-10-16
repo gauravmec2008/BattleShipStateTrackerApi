@@ -20,7 +20,9 @@ namespace BattleShipStateTracker.Domain
             {
                 new Destroyer(),
                 new Cruiser(),
-                new Battleship()
+                new Battleship(),
+                new Submarine(),
+                new Carrier()
             };
             GameBoard = new GameBoard();
 

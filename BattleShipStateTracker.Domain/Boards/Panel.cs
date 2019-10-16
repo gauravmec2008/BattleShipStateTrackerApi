@@ -25,6 +25,8 @@ namespace BattleShipStateTracker.Domain.Boards
             {
                 return AttackerType == AttackerType.Battleship
                     || AttackerType == AttackerType.Destroyer
+                    || AttackerType == AttackerType.Carrier
+                    || AttackerType == AttackerType.Submarine
                     || AttackerType == AttackerType.Cruiser;
 
             }
